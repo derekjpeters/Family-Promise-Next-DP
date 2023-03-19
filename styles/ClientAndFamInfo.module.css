@@ -1,0 +1,78 @@
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.heading {
+    height: 5vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #CDCDCD;
+    color: black;
+}
+
+.subheading {
+    height: 3vh;
+    width: 100vw;
+    margin-top: 2vh;
+    margin-left: 3vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/**
+
+Head of Household Section CSS (Left and Right)
+
+**/
+
+.headOfHouseholdContainer {
+    height: 60vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 2px solid white;
+}
+
+.headOfHouseholdLeft {
+    height: 55vh;
+    width: 40vw;
+}
+
+.headOfHouseholdRight {
+    height: 55vh;
+    width: 40vw;
+}
+
+/**
+
+Last Known Address Section CSS
+
+**/
+
+.lastKnownAddressContainer {
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top: 2px solid white;
+}
+
+.lastKnownAddressTop {
+    height: 8vh;
+    width: 80vw;
+}
+
+.lastKnownAddressBottom {
+    height: 8vh;
+    width: 80vw;
+}
