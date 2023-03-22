@@ -1,0 +1,132 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.heading {
+    height: 5vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #CDCDCD;
+    color: black;
+}
+
+/**
+
+Styles for the top container
+
+**/
+
+.topContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.topLeftContainer {
+    width: 40vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.topRightContainer {
+    width: 40vw;
+    height: 70vh;
+}
+
+.topRightContainer > h4 {
+    margin-top: 7.5vh;
+}
+
+.topLeftContainer > h4 {
+    margin-bottom: 0;
+}
+
+.topLeftContainer > div {
+    width: 40vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/**
+
+Styles for the middle container
+
+**/
+
+.middleContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.middleLeft {
+    width: 40vw;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.middleRight {
+    width: 40vw;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.middleRightCheckbox {
+    width: 40vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/**
+
+Styles for the bottom container
+
+**/
+
+.bottomContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bottomLeft {
+    width: 40vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.bottomRight {
+    width: 40vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.bottomLeftCheckbox {
+    width: 40vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 1vh;
+}

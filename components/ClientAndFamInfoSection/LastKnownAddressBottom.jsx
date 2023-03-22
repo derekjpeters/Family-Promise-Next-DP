@@ -1,6 +1,6 @@
 import React from 'react'
 import { Form, Input } from 'antd';
-import styles from '../../styles/ClientAndFamInfo.module.css'
+import styles from '../../styles/intake/ClientAndFamInfo.module.css'
 
 const LastKnownAddressBottom = () => {
   return (

@@ -1,0 +1,33 @@
+.container {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.heading {
+    height: 5vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2vh;
+    background-color: #CDCDCD;
+    color: black;
+}
+
+.employmentContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.employmentLeft{
+    width: 40vw;
+    height: 50vh;
+}
+
+.employmentRight{
+    width: 40vw;
+    height: 50vh;
+}

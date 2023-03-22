@@ -1,6 +1,6 @@
 import React from 'react'
 import { Form, Input, Select, Radio, DatePicker } from 'antd';
-import styles from '../../styles/ClientAndFamInfo.module.css'
+import styles from '../../styles/intake/ClientAndFamInfo.module.css'
 
 const HeadOfHouseholdRight = () => {
   return (
@@ -26,9 +26,9 @@ const HeadOfHouseholdRight = () => {
                 <Input placeholder='Other' />
             </Form.Item>
             <Form.Item label={<label style={{ color: "white" }}>Pregnant?</label>}>
-                <Radio.Group>
-                    <Radio style={{color: "white"}} value="yes"> Yes </Radio>
-                    <Radio style={{color: "white"}} value="no"> No </Radio>
+                <Radio.Group defaultValue={2}>
+                    <Radio style={{color: "white"}} value={1}> Yes </Radio>
+                    <Radio style={{color: "white"}} value={2}> No </Radio>
                 </Radio.Group>
                 <DatePicker size='small' placeholder='Select Date' />
             </Form.Item>

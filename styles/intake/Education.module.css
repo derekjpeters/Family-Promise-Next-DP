@@ -1,0 +1,30 @@
+.container {
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.heading {
+    height: 5vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2vh;
+    background-color: #CDCDCD;
+    color: black;
+}
+
+.container > h4 {
+    margin-left: 5vw;
+}
+
+.educationCheckbox {
+    width: 50vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 5vw;
+}
