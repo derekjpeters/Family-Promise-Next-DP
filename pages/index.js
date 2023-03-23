@@ -1,15 +1,11 @@
-import HouseholdInfo from "../components/HouseholdInfoSection/HouseholdInfo"
-import ClientAndFamInfo from "../components/ClientAndFamInfoSection/ClientAndFamInfo"
-import Education from "../components/EducationSection/Education"
-import Employment from "../components/EmploymentSection/Employment"
+import Header from "../components/Dashboard/Header"
+import Dashboard from "../components/Dashboard/Dashboard"
 
 export default function Home() {
   return (
     <>
-      <ClientAndFamInfo />
-      <HouseholdInfo />
-      <Education />
-      <Employment />
+      <Header />
+      <Dashboard />
     </>
   )
 }

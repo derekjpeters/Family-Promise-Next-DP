@@ -15,6 +15,12 @@
     color: black;
 }
 
+/**
+*
+*  Styles for the top container
+*
+**/
+
 .employmentContainer{
     display: flex;
     flex-direction: row;

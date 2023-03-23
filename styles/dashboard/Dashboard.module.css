@@ -1,0 +1,21 @@
+.container {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+}
+
+.recentCases {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.recentActivity {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
