@@ -9,6 +9,9 @@ npm run dev
 # or
 yarn dev
 ```
+Dependancies:
+- npm install react-bootstrap
+- npm install --save @fullcalendar/react @fullcalendar/daygrid @fullcalendar/timegrid @fullcalendar/interaction
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 

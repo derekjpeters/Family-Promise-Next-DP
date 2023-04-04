@@ -10,11 +10,20 @@
   },
   "dependencies": {
     "@ant-design/icons": "^5.0.1",
+    "@fullcalendar/daygrid": "^6.1.5",
+    "@fullcalendar/interaction": "^6.1.5",
+    "@fullcalendar/react": "^6.1.5",
+    "@fullcalendar/timegrid": "^6.1.5",
     "antd": "^5.3.1",
+    "bootstrap": "^5.2.3",
+    "date-fns": "^2.29.3",
     "eslint": "8.35.0",
     "eslint-config-next": "13.2.3",
-    "next": "13.2.3",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "next": "^13.2.3",
+    "react": "^18.2.0",
+    "react-big-calendar": "^1.6.9",
+    "react-bootstrap": "^2.7.2",
+    "react-calendar": "^4.1.1",
+    "react-dom": "^18.2.0"
   }
 }
