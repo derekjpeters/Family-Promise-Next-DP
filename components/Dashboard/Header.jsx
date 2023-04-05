@@ -4,6 +4,7 @@ import { UserOutlined, UsergroupAddOutlined, CalendarOutlined, FolderOpenOutline
 import { Input, Button, Avatar } from 'antd'
 import Image from 'next/image'
 import fpLogo from '../../assets/fplogo.png'
+import Link from 'next/link';
 
 const { Search } = Input;
 
@@ -27,30 +28,42 @@ const Header = () => {
             <Avatar size="large" icon={<UserOutlined />} style={{ backgroundColor: '#CDCDCD' }} />
         </div>
         <div className={styles.bottomContainer}>
-            <div className={styles.menuItem}>
-                <UsergroupAddOutlined style={{ fontSize: '1.5rem' }}/>
-                <p>DASHBOARD</p>
-            </div>
-            <div className={styles.menuItem}>
-                <CalendarOutlined style={{ fontSize: '1.5rem' }} />
-                <p>CALENDAR</p>
-            </div>
-            <div className={styles.menuItem}>
-                <FolderOpenOutlined style={{ fontSize: '1.5rem' }} />
-                <p>CASES</p>
-            </div>
-            <div className={styles.menuItem}>
-                <FileAddOutlined style={{ fontSize: '1.5rem' }} />
-                <p>RESOURCES</p>
-            </div>
-            <div className={styles.menuItem}>
-                <DatabaseOutlined style={{ fontSize: '1.5rem' }} />
-                <p>SERVICES</p>
-            </div>
-            <div className={styles.menuItem}>
-                <UserAddOutlined style={{ fontSize: '1.5rem' }} />
-                <p>INTAKE</p>
-            </div>
+            <Link href="/">
+              <div className={styles.menuItem}>
+                  <UsergroupAddOutlined style={{ fontSize: '1.5rem' }}/>
+                  <p>DASHBOARD</p>
+              </div>
+            </Link>
+            <Link href="/calendar">
+              <div className={styles.menuItem}>
+                  <CalendarOutlined style={{ fontSize: '1.5rem' }} />
+                  <p>CALENDAR</p>
+              </div>
+            </Link>
+            <Link href="/cases">
+              <div className={styles.menuItem}>
+                  <FolderOpenOutlined style={{ fontSize: '1.5rem' }} />
+                  <p>CASES</p>
+              </div>
+            </Link>
+            <Link href="/resources">
+              <div className={styles.menuItem}>
+                  <FileAddOutlined style={{ fontSize: '1.5rem' }} />
+                  <p>RESOURCES</p>
+              </div>
+            </Link>
+            <Link href="/services">
+              <div className={styles.menuItem}>
+                  <DatabaseOutlined style={{ fontSize: '1.5rem' }} />
+                  <p>SERVICES</p>
+              </div>
+            </Link>
+            <Link href="/intake">
+              <div className={styles.menuItem}>
+                  <UserAddOutlined style={{ fontSize: '1.5rem' }} />
+                  <p>INTAKE</p>
+              </div>
+            </Link>
         </div>
     </div>
   )
