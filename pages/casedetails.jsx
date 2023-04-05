@@ -3,10 +3,10 @@
 import React from 'react';
 import { useRouter } from 'next/router';
 import { Typography, Descriptions } from 'antd';
-import Header from '../../components/Dashboard/Header';
+import Header from '../components/Dashboard/Header';
 
 // You can import the mock data here to get the case by ID
-import cases from '../../data/cases'; // Adjust the path based on your project structure
+import cases from '../data/cases'; // Adjust the path based on your project structure
 
 const { Title } = Typography;
 
@@ -33,6 +33,10 @@ const CaseDetails = () => {
         <Descriptions.Item label="Name">{`${caseDetail.clientInfo.firstName} ${caseDetail.clientInfo.lastName}`}</Descriptions.Item>
         <Descriptions.Item label="SSN">{caseDetail.clientInfo.ssn}</Descriptions.Item>
         {/* Add more description items for other sections as needed */}
+        <Descriptions.Item label="Employment Status">{caseDetail.employment.status}</Descriptions.Item>
+        <Descriptions.Item label="Job Title">{caseDetail.employment.jobTitle}</Descriptions.Item>
+        <Descriptions.Item label="Annual Income">{caseDetail.finances.annualIncome}</Descriptions.Item>
+        {/* ... */}
       </Descriptions>
     </>
   );
