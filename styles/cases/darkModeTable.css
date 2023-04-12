@@ -1,0 +1,21 @@
+.dark-mode-table .ant-table {
+  background-color: #181818;
+  color: #ffffff;
+}
+
+.dark-mode-table .ant-table-thead > tr > th {
+  background-color: #282828;
+  color: #ffffff;
+}
+
+.dark-mode-table .ant-table-tbody > tr > td {
+  background-color: #181818;
+  color: #ffffff;
+  border-bottom: 1px solid #282828;
+}
+
+.dark-mode-table .ant-table-tbody > tr.ant-table-row:hover > td {
+  background-color: #282828;
+}
+
+/* Add any other styling you want for dark mode */
