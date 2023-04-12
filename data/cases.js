@@ -9,6 +9,7 @@ import FakerInsuranceSection from '../components/MockData/FakerInsuranceSection'
 import FakerDocuments from '../components/MockData/FakerDocuments';
 import FakerGoals from '../components/MockData/FakerGoals';
 
+
 const CASE_COUNT = 20;
 
 const cases = Array.from({ length: CASE_COUNT }, (_, i) => ({
